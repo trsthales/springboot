@@ -1,0 +1,27 @@
+curso-springboot-udemy/target*
+*.jar
+*.war
+*.ear
+*.class
+
+# eclipse specific git ignore
+*.pydevproject
+curso-springboot-udemy/.project
+curso-springboot-udemy/.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+curso-springboot-udemy/.classpath
+curso-springboot-udemy/.settings/
+curso-springboot-udemy/.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
