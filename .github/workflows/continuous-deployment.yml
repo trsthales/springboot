@@ -39,4 +39,4 @@ jobs:
         docker tag ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:latest ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:${{ github.run_id }}
         
         docker push ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:latest
-        docker push ${{ secrets.DOCKER_USERN_AME }}/curso-springboot-udemy:${{ github.run_id }}
+        docker push ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:${{ github.run_id }}
