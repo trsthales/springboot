@@ -1,9 +1,0 @@
-com/thales/controller/PersonController.class
-com/thales/repository/PersonRepository.class
-com/thales/dto/PersonDTO.class
-com/thales/mapper/ObjectMapper.class
-com/thales/exception/ResourceNotFoundException.class
-com/thales/services/PersonService.class
-com/thales/exception/ExceptionResponse.class
-com/thales/model/Person.class
-com/thales/CursoSpringbootUdemyApplication.class
