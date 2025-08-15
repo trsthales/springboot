@@ -36,7 +36,7 @@ jobs:
 
     - name: Push to Docker Hub Container Registry
       run: |
-        docker tag ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:latest ${{ secrets.DOCKER_USERNAME }}/curso-springboot-udemy:${{ github.run_id }}
+        docker tag ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:latest ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:${{ github.run_id }}
         
         docker push ${{ secrets.DOCKER_USER_NAME }}/curso-springboot-udemy:latest
         docker push ${{ secrets.DOCKER_USERN_AME }}/curso-springboot-udemy:${{ github.run_id }}
