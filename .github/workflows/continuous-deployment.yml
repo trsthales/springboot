@@ -26,6 +26,7 @@ jobs:
         java-version: '21'
         distribution: 'adopt'
         cache: maven
+        overwrite-settings: false
     
     - name: Build Application .jar
       working-directory: ./springboot/curso-springboot-udemy
