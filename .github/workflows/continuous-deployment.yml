@@ -25,6 +25,7 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '21'
+        cache: maven
     
     - name: Build Application .jar
       working-directory: ./springboot/curso-springboot-udemy
